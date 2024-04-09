@@ -6,21 +6,23 @@
 
 h1 {
     font-size: 25px;
-    color: aliceblue;
+    color: rgb(222, 240, 19);
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
 }
 
-header {
-    text-align: center;
+/* header {
+    text-align: left;
     padding: 4px 10%;
     margin-bottom: 50px;
-    background-color: rgb(102, 94, 74);
-}
+    background-color: rgb(192, 123, 123);
+} */
 
 .app {
     background: url(../src/images/mountain.jpeg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
 }
 
