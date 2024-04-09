@@ -5,7 +5,7 @@ export const Header = () => {
     <div>
         <header>
             <h1>
-                Simple Trello
+             Sense of crisis
             </h1>
         </header>
     </div>
