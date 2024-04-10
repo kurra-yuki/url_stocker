@@ -9,6 +9,16 @@ const reorder = (taskList, startIndex, endIndex) => {
 
 export const Tasks = ({taskList, setTaskList}) => {
   const handleDragEnd = (result) => {
+    const { destination, source } = result;
+    if (!destination) {
+      return;
+    }
+    if (
+      destination.droppableId === source.droppableId &&
+      destination.index === source.index
+    ) {
+      return;
+    }
     //タスクの並び替え
     reorder(taskList, result.source.index, result.destination.index);
     setTaskList(taskList);
