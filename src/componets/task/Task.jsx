@@ -31,7 +31,7 @@ export const Task = ({task, taskList, setTaskList, index}) => {
           </>
         ) : (
           <>
-            <img src="/images/joge.jpg" alt="u are late..." style={{ width: '200px', height: 'auto' }}/>
+            <img src="/images/joge.jpg" alt="u are late..." style={{ width: '200px', height: '100px' }}/>
             <button 
               className="taskTrashButton" 
               onClick={() => handleDelete(task.id)}
