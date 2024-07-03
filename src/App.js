@@ -1,11 +1,11 @@
-import { Header } from './componets/header/Header';
-import { TaskCards } from './componets/task/TaskCards';
+import { Header } from './components/header/Header';
+import { UrlStockers } from './components/urlstocker/UrlStockers';
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <TaskCards />
+      <UrlStockers />
     </div>
   );
 }

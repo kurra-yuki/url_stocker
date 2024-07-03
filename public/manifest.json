@@ -1,19 +1,19 @@
 {
-  "short_name": "SOC",
-  "name": "Sense of crisis",
+  "short_name": "URLS",
+  "name": "URL_Stocker",
   "icons": [
     {
-      "src": "joge.ico",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "joge2.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "joge2.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
